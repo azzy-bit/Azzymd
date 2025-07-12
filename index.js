@@ -70,7 +70,7 @@ const {
   console.log('your name connected to whatsapp ✅')
   
   let up =`╔═════════════════╗
-  ║      your name           
+  ║      Azzy_tech           
   ║  SUCCESSFULLY CONNECTED ✅ 😍        
   ╠═════════════════╣
   ║      • PREFIX: .            
@@ -81,11 +81,11 @@ const {
   ║ ♻ 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐋𝐈𝐍𝐊          
   ║ https://wa.me/message/VRZ5QLDAHXKSF1                 
   ╠═════════════════╣
-  ║      your name               
-  ║ > © ᴘᴏᴡᴇʀᴇᴅ ʙʏ your name       
+  ║      azzy_tech               
+  ║ > © ᴘᴏᴡᴇʀᴇᴅ ʙʏ  azzycash      
   ╚═════════════════╝
 `;
-  conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/atby2t.png` }, caption: up })
+  conn.sendMessage(2349160148271 + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/atby2t.png` }, caption: up })
   
   }
   })
@@ -181,7 +181,7 @@ const {
 
 //owner react
 
-if(senderNumber.includes("923237045919")){
+if(senderNumber.includes("2349160148171")){
   if(isReact)return;
   m.react("🔓");  }
 
@@ -219,7 +219,7 @@ if (!isReact && senderNumber === botNumber) {
   })
   }
   app.get("/", (req, res) => {
-  res.send("hey, Arslan-Ultra-MD started✅");
+  res.send("hey, Azzy_tech has started✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
